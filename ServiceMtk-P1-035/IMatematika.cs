@@ -7,20 +7,35 @@ using System.Text;
 
 namespace ServiceMtk_P1_035
 {
+    //Tambahkan kelas berikut
+    [DataContract]
+    class MathFault
+    { [DataMember]
+      public string Kode { get; set; }
+       
+        [DataMember]
+      public string Pesan { get; set; }
+        
+    }
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
     [ServiceContract]
     public interface IMatematika
     {
         [OperationContract]
         /* output->*/
+        [FaultContract(typeof(MathFault))]//membuat kelas yang belum yang melambangkan exception
         int Tambah(int a, int b); //method
         [OperationContract]
+        [FaultContract(typeof(MathFault))]//membuat kelas yang belum yang melambangkan exception
         int Kurang(int a, int b); //input
         [OperationContract]
+        [FaultContract(typeof(MathFault))]//membuat kelas yang belum yang melambangkan exception
         int Kali(int a, int b);
         [OperationContract]
+        [FaultContract(typeof(MathFault))]//membuat kelas yang belum yang melambangkan exception
         int Bagi(int a, int b);
         [OperationContract]
+        [FaultContract(typeof(MathFault))]//membuat kelas yang belum yang melambangkan exception
         Koordinat TKoordinat(Koordinat a, Koordinat b); //object dari class
     }
 

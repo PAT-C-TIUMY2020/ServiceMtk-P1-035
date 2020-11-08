@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.1267
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceMtk-P1-035", "ServiceMtk-P1-035\ServiceMtk-P1-035.csproj", "{E2CE1299-D85E-4922-9839-47378E34DE8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerConfigMtk-P2-035", "D:\tugas pat ex\ServerConfigMtk-P2-035\ServerConfigMtk-P2-035.csproj", "{D3163DC0-2C76-412A-980F-8F9577523B66}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1ClientProxy-P4-035", "D:\tugas pat ex\ConsoleApp1ClientProxy-P4-035\ConsoleApp1ClientProxy-P4-035.csproj", "{5BF02434-5C5E-47C4-83AE-0B3CF7085E21}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{E2CE1299-D85E-4922-9839-47378E34DE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2CE1299-D85E-4922-9839-47378E34DE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2CE1299-D85E-4922-9839-47378E34DE8F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D3163DC0-2C76-412A-980F-8F9577523B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3163DC0-2C76-412A-980F-8F9577523B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3163DC0-2C76-412A-980F-8F9577523B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3163DC0-2C76-412A-980F-8F9577523B66}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5BF02434-5C5E-47C4-83AE-0B3CF7085E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5BF02434-5C5E-47C4-83AE-0B3CF7085E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BF02434-5C5E-47C4-83AE-0B3CF7085E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
